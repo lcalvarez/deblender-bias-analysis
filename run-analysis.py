@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------
-# Filename: InitializeAnalysis.py
+# Filename: run-analysis.py
 # Author: Luis Alvarez
 # This program runs through different separations
 # for two overlapping objects, runs a number of trials
