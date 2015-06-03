@@ -22,13 +22,12 @@ import shutil
 
 # Function Definitions --------------------------------------------------------
 
-# Create a galaxy with a sersic profile and optional psf to the image. 
 def create_galaxy(flux, hlr, e1, e2, x0, y0, galtype_gal=galsim.Sersic, sersic_index=0.5,
                   psf_flag=False, psf_type=galsim.Moffat, beta=3, size_psf=1, flux_psf=1,
                   x_len=100, y_len=100, scale=0.2, method='fft', seed=None,
                   verbose=False, max_fft_size=10000, return_obj=False):
                       
-    """ Helper function to create galsim objects
+    """ Helper function to create galsim objects and images.
     
     Keyword Arguments:
     
