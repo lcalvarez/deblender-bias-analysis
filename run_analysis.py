@@ -1,5 +1,5 @@
 # ----------------------------------------------------------------------------
-# Filename: run-analysis.py
+# Filename: run_analysis.py
 # Author: Luis Alvarez
 # This program runs through different separations
 # for two overlapping objects, runs a number of trials
@@ -11,9 +11,11 @@
 
 # ----------------------------- Import Statements ----------------------------
 from __future__ import division
-import BiasOverSeparationLibrary as bos
+import bias_over_separation_library as bos
 import galsim
 import numpy as np
+
+# Function Definitions -------------------------------------------------------
 
 def run_bias_over_separation(directory,
                              psf,

@@ -1,4 +1,5 @@
 # Filename: deblend.py
+# Author: Joshua Evan Meyers
 # Implement the D. Lang et al. LSST all hands meeting slides deblending
 # algorithm.  Don't include sky noise for now, since that seems complicated and
 # probably requires defining a segmentation map for each blended group.
