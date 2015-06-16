@@ -1,5 +1,5 @@
 # -----------------------------------------------------------------------------
-# Filename: bias-over-separation-library.py
+# Filename: bias_over_separation_library.py
 # Author: Luis Alvarez
 # Set of functions for running the deblender, simultaneous fitter
 # and fits to true objects to compare results and perform
